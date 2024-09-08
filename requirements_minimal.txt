@@ -5,6 +5,9 @@ julius>=0.2.3
 lameenc>=1.2
 openunmix
 pyyaml
-torch>=1.8.1
+torch>=2.2.0
 torchaudio>=0.8
 tqdm
+numpy>=1.22.2 # not directly required, pinned by Snyk to avoid a vulnerability
+setuptools>=70.0.0 # not directly required, pinned by Snyk to avoid a vulnerability
+wheel>=0.38.0 # not directly required, pinned by Snyk to avoid a vulnerability
